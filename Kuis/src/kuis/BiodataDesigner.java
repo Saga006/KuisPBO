@@ -269,7 +269,7 @@ public class BiodataDesigner extends javax.swing.JFrame {
             }
         }
         catch(NumberFormatException error){
-            JOptionPane.showMessageDialog(null,"INPUT SALAH");
+            JOptionPane.showMessageDialog(null, error.getMessage());
         }
     }//GEN-LAST:event_CekProgActionPerformed
 
