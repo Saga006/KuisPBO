@@ -261,7 +261,7 @@ public class BiodataProgrammer extends javax.swing.JFrame {
             }
         }
         catch(NumberFormatException error){
-            JOptionPane.showMessageDialog(null, getMessage());
+            JOptionPane.showMessageDialog(null, error.getMessage());
         }
     }//GEN-LAST:event_CekProgActionPerformed
 
